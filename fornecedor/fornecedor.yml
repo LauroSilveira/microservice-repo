@@ -1,14 +1,13 @@
-spring: 
+spring:
   datasource:
-    password:
-    url: "jdbc:mysql://localhost:3306/fornecedor"
+    url: jdbc:mysql://localhost:3306/fornecedor
     username: root
-  jpa: 
-    hibernate: 
-      ddl-auto: create
-    properties: 
-      hibernate: 
-        jdbc: 
-          time_zone: UTC
+    password: 
+  jpa:
     show-sql: true
-      
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        jdbc:
+          time_zone: UTC
